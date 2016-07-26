@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "rbush": "^2.0.1",
     "tile-reduce": "^3.1.1",
     "tilebelt": "^1.0.1",
     "turf": "^3.0.14"
