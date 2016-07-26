@@ -5,7 +5,7 @@ Detect and fix split buildings in LA
 
 `npm install`
 
-`npm install geojson-stream-merge`
+`npm install geojson-stream-merge -g`
 
 **Run**
 
