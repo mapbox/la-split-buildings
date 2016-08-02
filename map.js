@@ -81,7 +81,7 @@ function passesMLA(p) {
   // Maning's Learning Algorithm
   return (p.properties._area <= 13 && p.properties._shape <= 76) ||
     (p.properties._area > 13 && p.properties._area <= 30 && p.properties._shape <= 52) ||
-    (p.properties._area > 30 && p.properties._shape <= 17);
+    (p.properties._area > 30 && p.properties._area < 150 && p.properties._shape <= 17);
 }
 
 function cloneObject(object) {
