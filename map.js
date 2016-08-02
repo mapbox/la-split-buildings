@@ -79,14 +79,9 @@ function passesMLA(p) {
   p.properties._shape = parseFloat(((((Math.PI * 4 * p.properties._area) / ((p.properties._perimeter)*(p.properties._perimeter))) * 100)).toFixed(3));
 
   // Maning's Learning Algorithm
-  // ("area" <= 20)
-  // OR
-  // (("area > 20 AND "area"  <= 40)  AND ("shape" <= 45))
-  // OR
-  // (("area" > 40 AND "area" <= 150)  AND ("shape" <= 25))
-  return (p.properties._area <= 20) ||
-    (p.properties._area > 20 && p.properties._area <= 40 && p.properties._shape <= 45) ||
-    (p.properties._area > 40 && p.properties._area <= 150 && p.properties._shape <= 25);
+  return (p.properties._area <= 13 && p.properties._shape <= 76) ||
+    (p.properties._area > 13 && p.properties._area <= 30 && p.properties._shape <= 52) ||
+    (p.properties._area > 30 && p.properties._shape <= 17);
 }
 
 function cloneObject(object) {
