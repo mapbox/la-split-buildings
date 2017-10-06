@@ -1,5 +1,6 @@
-# la-split-buildings
-Detect and fix split buildings in LA
+# la-split-buildings - Detect and fix split buildings in LA
+
+More about this project is in this dairy post - https://www.openstreetmap.org/user/manings/diary/39230
 
 **Install dependencies**
 
